@@ -1,0 +1,43 @@
+body {
+    font-family: calibri;
+    color: white;
+    /* kolor tła */
+    background-color: rgb(158, 201, 198);
+    padding: 20px;
+}
+
+div.wyrownanie {
+
+  width: 750px;
+  text-align: left;
+}
+
+h1.glownah {
+  color: white;
+  font-size: 24pt;
+}
+
+/* nieodwiedzony link */
+a:link {
+  /* podgrubienie czcionki */
+  font-weight: bold;
+  /* usuwa podkreślenie linku */
+  text-decoration: none;
+  /* ustawia kolor tekstu na czerwony */
+  color: white;
+}
+
+/* odwiedzony link */
+a:visited {
+  color: lightgrey;
+}
+
+/* mysz nad linkiem */
+a:hover {
+  color: lightgrey;
+}
+
+/* aktywny link */
+a:active {
+  color: grey;
+} 
